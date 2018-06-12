@@ -17,7 +17,6 @@ program GETest
 
   call  GEsolve(A,x,B,n)
   print*, x
-
-
+  x = (3, 1, 2)
   
 end program GETest
